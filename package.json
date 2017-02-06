@@ -1,0 +1,30 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "Project to remember some basic concepts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelbenetti/fullstack.git"
+  },
+  "keywords": [
+    "mean;js;fullstack;nodejs;"
+  ],
+  "author": "Rafael de Oliveira Benetti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelbenetti/fullstack/issues"
+  },
+  "homepage": "https://github.com/rafaelbenetti/fullstack#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.1",
+    "express-load": "^1.1.15",
+    "helmet": "^3.4.0",
+    "method-override": "^2.3.7"
+  }
+}
