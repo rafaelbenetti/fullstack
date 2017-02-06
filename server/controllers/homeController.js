@@ -14,7 +14,7 @@
             });
         };
 
-        controller.contact = function (req, res) {
+        controller.contact = (req, res) => {
             homeService.contact(req.body);
             res.json({
                 sucess: true

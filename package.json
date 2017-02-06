@@ -25,6 +25,7 @@
     "express": "^4.14.1",
     "express-load": "^1.1.15",
     "helmet": "^3.4.0",
-    "method-override": "^2.3.7"
+    "method-override": "^2.3.7",
+    "redis": "^2.6.5"
   }
 }
