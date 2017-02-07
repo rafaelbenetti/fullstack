@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    var app = angular.module('fullstack');
+    var app = angular.module('fullstack', []);
 
     app.config(['$httpProvider', function ($httpProvider) {
         $httpProvider.defaults.headers.common.Accept = 'application/json, text/javascript';

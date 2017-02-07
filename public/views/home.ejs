@@ -9,9 +9,12 @@
 
 <body ng-controller="homeController as homeCtrl">
     <h1>Home!</h1>
-    <label>{{homeCtrl.sayHello}}</label>
-    
+    <input type="text" ng-model="message">
+    <label>{{message}}</label>
     <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="config/urlSettingsFactory.js"></script>
+    <script type="text/javascript" src="services/homeService.js"></script>
+    <script type="text/javascript" src="controllers/homeController.js"></script>
 </body>
 
 </html>

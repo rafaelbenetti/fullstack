@@ -15,7 +15,7 @@
         return {
             getUrlToLogin,
             getUrlToContact            
-        }
+        };
     };
 
     angular.module('fullstack').factory('urlSettingsFactory', [
